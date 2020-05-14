@@ -1,0 +1,44 @@
+.sidebar , ul{
+
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    align-items:flex-start ;
+    flex-basis: 0;
+    padding:30px;
+    padding-top: 80px;
+
+}
+h2{
+  font-size: larger;
+  text-align: center;
+
+}
+.facebook{
+
+    vertical-align: middle;
+    padding-top: 30px;
+    padding: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.linkedin{
+    vertical-align: middle;
+    padding-top: 30px;
+    padding: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+
+}
+.twitter{
+
+    vertical-align: top;
+    padding-top: 30px;
+    padding: 15px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}

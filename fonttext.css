@@ -1,0 +1,30 @@
+
+blockquote{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    padding: 40px;
+    margin: 50px;
+    font-size: xx-large;
+    background:none;
+    font-style: italic;
+    
+
+}
+h1{
+
+    padding: 0;
+    text-align: left;
+    font-size: x-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     
+    }
+    h2{
+
+        font-size: large;
+        font-family: 'Kaushan Script', cursive;
+    }
+    h5{
+        font-family: 'Dancing Script', cursive;
+    }
+    

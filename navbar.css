@@ -1,0 +1,29 @@
+
+.navbar , ul {
+    display: inline;
+    background-color: slategray;
+    list-style-type: none;
+    margin: 0;
+    padding-top: 20px;
+    overflow: none; 
+
+  }
+
+  li , a {
+
+      display: flex;
+    display: inline;
+    align-items: center;
+    padding-top: 20px;
+    flex-direction: row;
+    padding-left: 40px;
+    text-decoration:none;
+    text-align: center;
+    font-size: large;
+    
+   
+}
+
+a:hover {
+  color:rgb(64, 15, 241);
+}

@@ -1,0 +1,298 @@
+@import url("socialmediabar.css");
+
+html{
+
+    height: 100%;
+}
+
+
+body{
+
+     position: absolute;
+    margin: 0;
+    padding: 0;
+    min-height: 100%; 
+
+}
+
+.page{
+
+    
+    display: grid;
+    grid-gap: 0;
+    grid-template-columns:900px 100px ;
+    grid-template-rows: 80px 800px 80px 10px;
+   grid-template-areas: "header header"
+    "main sidebar"
+    "footer footer";
+    width: 100vw;
+    
+}
+
+.header{
+
+    grid-area: header;
+    background-color: rgb(230, 196, 202);
+}
+.main{
+    grid-area: main  ;
+background-color: rgb(214, 192, 214);
+
+}
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    text-align: start;
+    
+}
+h4{
+    padding: 0;
+    margin-bottom: 60px;
+    text-align: start;
+    font-size: large;
+}
+
+.sidebar{
+
+    grid-area: sidebar ;
+    background-color: rgb(202, 150, 202);
+    width: 300px;
+    margin-left: 300px;
+
+}
+
+.footer{
+ grid-area: footer;
+background-color: rgb(219, 183, 183);
+}
+
+.avatar{
+    vertical-align: middle;
+    padding-top: 50px;
+    padding: 50px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+
+}
+
+h5{
+     padding-left: 150px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    font-weight: bold;
+}
+@media (max-width: 600px)  {
+body{
+
+    margin: 0;
+    padding: 0;
+}
+
+.page{
+
+    width:100%;
+    height: auto;
+    display: grid;
+    grid-gap: 0;
+    grid-template-columns:300px 300px;
+    grid-template-rows: 80px 390px 80px 20px;
+   grid-template-areas: "header header"
+    "main sidebar"
+    "footer footer";
+    
+}
+
+.header{
+
+    grid-area: header;
+    background-color: pink;
+}
+.main{
+    grid-area: main  ;
+background-color: plum;
+
+}
+
+.sidebar{
+
+    grid-area: sidebar ;
+    background-color: purple;
+    width: fit-content;
+    height: fit-content;
+}
+
+.footer{
+ grid-area: footer;
+background-color: rosybrown;
+}
+
+
+.sidebar , ul{
+
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    align-items:flex-start ;
+    flex-basis: 50px;
+    padding:5px;
+    padding-top: 80px;
+
+}
+h2{
+  font-size: medium;
+  text-align: center;
+
+}
+.facebook{
+
+    vertical-align: middle;
+    padding-top: 0px;
+    padding:0;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.linkedin{
+    vertical-align: middle;
+    padding-top: 0px;
+    padding: 0px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+
+}
+.twitter{
+
+    vertical-align: top;
+    padding-top: 0px;
+    padding: 0;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.avatar{
+    vertical-align: middle;
+    padding-top: 50px;
+    padding: 30px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+
+}
+h5{
+     padding-left: 15px;
+     padding-top: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+}
+}
+@media (max-width: 300px)  {
+    body{
+    
+        margin: 0;
+        padding: 0;
+    }
+    
+    .page{
+    
+        width: 100vw;
+        height: auto;
+        display: grid;
+        grid-gap: 0;
+        grid-template-columns:160px 10px;
+        grid-template-rows: 80px 400px 80px 10px;
+       grid-template-areas: "header header"
+        "main sidebar"
+        "footer footer";
+        
+    }
+    
+    .header{
+    
+        grid-area: header;
+        background-color: pink;
+    }
+    .main{
+        grid-area: main  ;
+    background-color: plum;
+    
+    }
+    
+    .sidebar{
+    
+        grid-area: sidebar ;
+        background-color: purple;
+        width: fit-content;
+        height: fit-content;
+    }
+    
+    .footer{
+     grid-area: footer;
+    background-color: rosybrown;
+    }
+    
+    
+    .sidebar , ul{
+    
+        display: flex;
+        flex-direction: column;
+        list-style-type: none;
+        align-items:flex-start ;
+        flex-basis: 10px;
+        padding:20px;
+        padding-top: 80px;
+    
+    }
+    h2{
+      font-size: medium;
+      text-align: center;
+      font-family: 'Times New Roman', Times, serif;
+    
+    }
+    .facebook{
+    
+        vertical-align: middle;
+        padding-top: 0px;
+        padding:0;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+    }
+    
+    .linkedin{
+        vertical-align: middle;
+        padding-top: 0px;
+        padding: 0px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+    
+    }
+    .twitter{
+    
+        vertical-align: top;
+        padding-top: 0px;
+        padding: 0;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+    }
+    
+    .avatar{
+        vertical-align: middle;
+        padding-top: 30px;
+        padding: 30px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+    
+    }
+    h5{
+         padding-left: 5px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size:medium;
+    }
+    }
